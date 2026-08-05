@@ -254,7 +254,7 @@ const quotes = [
   function displayQuote() {
     const { quote, author } = getRandomQuote();
     quoteElem.textContent = quote;
-    authorElem.textContent = "- " + author;
+    authorElem.textContent = "" + author;
   }
   
   newQuoteBtn.addEventListener("click", displayQuote);
